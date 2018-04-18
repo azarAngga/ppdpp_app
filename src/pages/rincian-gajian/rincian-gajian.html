@@ -1,0 +1,165 @@
+<!--
+  Generated template for the RincianGajianPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header hideBackButton="true">
+    <ion-navbar start>
+        <ion-buttons >
+		   <button ion-button icon-left icon-only clear (click)="dismiss()">
+		      <ion-icon name="arrow-back"></ion-icon> Rincian Gaji
+		   </button>
+		</ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+	<section class="invoice">
+      <!-- title row -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="page-header">
+            <i class="fa fa-globe"></i>Detil Gaji Januari
+            <small class="pull-right">Date: 2/10/2014</small>
+          </h2>
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- info row -->
+      <div class="row invoice-info">
+        <div class="col-sm-4 invoice-col">
+          From
+          <address>
+            <strong>PPDPP</strong><br>
+            795 grogol, petamburan 600<br>
+            San jakarta, CA 94107<br>
+            Phone: (804) 123-5432<br>
+            Email: ppdpp@gmail.com
+          </address>
+        </div>
+        <!-- /.col -->
+        <div class="col-sm-4 invoice-col">
+          To
+          <address>
+            <strong>Azar Dwi Angga</strong><br>
+            jakrta slipi petambura<br>
+            manager<br>
+            Phone: (555) 539-1037<br>
+            Email: azar@gmail.com
+          </address>
+        </div>
+        <!-- /.col -->
+        <div class="col-sm-4 invoice-col">
+          <b>Invoice #007612</b><br>
+          <br>
+          <b>NIP:</b> 4F3S8J<br>
+          <b>Payment Due:</b> 02/04/2018<br>
+          <b>Account:</b> 968-34567
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+
+      <!-- Table row -->
+      <div class="row">
+        <div class="col-xs-12 table-responsive">
+          <table class="table table-striped">
+            <thead>
+            <tr>
+              <th>Qty</th>
+              <th>Product</th>
+              <th>Serial #</th>
+              <th>Description</th>
+              <th>Subtotal</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>1</td>
+              <td>Payday</td>
+              <td>455-981-221</td>
+              <td>Payroll</td>
+              <td>Rp6.400.500</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Payday</td>
+              <td>455-981-221</td>
+              <td>Payroll</td>
+              <td>Rp6.400.500</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Payday</td>
+              <td>455-981-221</td>
+              <td>Payroll</td>
+              <td>Rp6.400.500</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Payday</td>
+              <td>455-981-221</td>
+              <td>Payroll</td>
+              <td>Rp6.400.500</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+
+      <div class="row">
+        <!-- accepted payments column -->
+        <div class="col-xs-6">
+          <p class="lead">Payment Methods:</p>
+          <img src="assets/lte/dist/img/credit/visa.png" alt="Visa">
+          <img src="assets/lte/dist/img/credit/mastercard.png" alt="Mastercard">
+          <img src="assets/lte/dist/img/credit/american-express.png" alt="American Express">
+          <img src="assets/lte/dist/img/credit/paypal2.png" alt="Paypal">
+
+          
+        </div>
+        <!-- /.col -->
+        <div class="col-xs-6">
+          <p class="lead">Amount Due 2/04/2018</p>
+
+          <div class="table-responsive">
+            <table class="table">
+              <tbody><tr>
+                <th style="width:50%">Subtotal:</th>
+                <td>Rp 6.250.030</td>
+              </tr>
+              <tr>
+                <th>Tax (9.3%)</th>
+                <td>RP10.034</td>
+              </tr>
+              <tr>
+                <th>Shipping:</th>
+                <td>RP 5.080</td>
+              </tr>
+              <tr>
+                <th>Total:</th>
+                <td>RP 6.265.240</td>
+              </tr>
+            </tbody></table>
+          </div>
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+
+      <!-- this row will not appear when printing -->
+      <div class="row no-print">
+        <div class="col-xs-12">
+          <a href="invoice-print.html" target="_blank" class="btn btn-default"><i class="fa fa-print"></i> Print</a>
+          
+          <button type="button" class="btn btn-primary pull-right" style="margin-right: 5px;">
+            <i class="fa fa-download"></i> Generate PDF
+          </button>
+        </div>
+      </div>
+    </section>
+</ion-content>

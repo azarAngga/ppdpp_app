@@ -1,0 +1,69 @@
+<!--
+  Generated template for the AbsensiPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header hideBackButton="true">
+    <ion-navbar start>
+        <ion-buttons >
+		   <button ion-button icon-left icon-only clear (click)="dismiss()">
+		      <ion-icon name="arrow-back"></ion-icon> Report
+		   </button>
+		</ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+<div class="box">
+            <div class="box-header with-border">
+              <h3 class="box-title">Report Absensi</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <table class="table table-bordered">
+                <tbody><tr>
+                  <th style="width: 10px">No</th>
+                  <th>Tanggal</th>
+                  <th>Masuk</th>
+                  <th style="width: 40px">Pulang</th>
+                </tr>
+                <tr>
+                  <td>1.</td>
+                  <td>12-04-2018</td>
+                  <td>08:00:00</td>
+                  <td><span class="badge bg-red">17:19:00</span></td>
+                </tr>
+                <tr>
+                  <td>2.</td>
+                  <td>13-04-2018</td>
+                  <td>07:44:00</td>
+                  <td><span class="badge bg-yellow">18:00:09</span></td>
+                </tr>
+                <tr>
+                  <td>3.</td>
+                  <td>14-04-2018</td>
+                  <td>08:01:22</td>
+                  <td><span class="badge bg-light-blue">19:00:00</span></td>
+                </tr>
+                <tr>
+                  <td>4.</td>
+                  <td>15-04-2018</td>
+                  <td>07:21:00</td>
+                  <td><span class="badge bg-green">20:00:39</span></td>
+                </tr>
+              </tbody></table>
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer clearfix">
+              <ul class="pagination pagination-sm no-margin pull-right">
+                <li><a href="#">«</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">»</a></li>
+              </ul>
+            </div>
+          </div>
+</ion-content>
